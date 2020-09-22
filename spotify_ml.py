@@ -24,10 +24,9 @@ df.pop('release_date')
 target = df.pop('year') # extract target parameter
 dataset_size = df.shape[0] # get number of entries in dataset
 
-# get ready to split into appropriate sets
+# prepare to split into appropriate sets
 train_size = int(0.70 * dataset_size)
-eval_size  = int(0.15 * dataset_size)
-test_size  = int(0.15 * dataset_size)
+test_size  = int(0.30 * dataset_size)
 
 # convert to TF tensor
 dataset = tf.data.Dataset.from_tensor_slices((df.values, target.values))
