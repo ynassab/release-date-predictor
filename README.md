@@ -1,4 +1,4 @@
-# release-date-predictor
+# spotify-ml
 Predict the release year of a song based on the qualities of its sound (e.g. tempo, loudness, "acousticness", "speechiness"). Song release dates range from 1928 to 2020. See the file 'data.csv' for all metrics used. The dataset, gathered using the Spotify API, is provided by the Kaggle user Yamac Eren Ay under a Community Data License Agreement.
 
 # Implementation
