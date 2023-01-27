@@ -42,8 +42,8 @@ if __name__ == "__main__":
 	# display fit evolution
 	plt.scatter(x_range, scores)
 	plt.title('Evolution of Fit Accuracy')
-	plt.xlabel('Accuracy')
-	plt.ylabel('Number of Nearest Neighbours')
+	plt.xlabel('Number of Nearest Neighbours')
+	plt.ylabel('Accuracy')
 	plt.savefig('./fit_evolution.png')
 	plt.show()
 	
